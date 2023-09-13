@@ -3,7 +3,6 @@
 
 
 
-// eslint-disable-next-line react/prop-types
 export const WorkItem = ({year, title, duration, details}) => {
     return (
       <ol className="flex flex-col md:flex-row relative border-l border-stone-200 ">
@@ -18,4 +17,4 @@ export const WorkItem = ({year, title, duration, details}) => {
       </li>
       </ol>
     )
-  }
+  };

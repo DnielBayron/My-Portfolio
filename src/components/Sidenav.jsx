@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject} from 'react-icons/ai';
-import {GrProjects} from 'react-icons/gr';
+import {GrProjects} from 'react-icons/gr'
 import { BsPerson} from 'react-icons/bs';
 import sideNav from '../context/sidenav';
 
@@ -46,7 +46,7 @@ export const Sidenav = () => {
             )
             : (
                " "
-            )}
+            )};
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>

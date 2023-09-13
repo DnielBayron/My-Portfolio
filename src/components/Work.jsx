@@ -36,7 +36,7 @@ export const Work = () => {
                 details = {item.details}
 
             />
-        ))}
+        ))};
     </div>
   )
-}
+};

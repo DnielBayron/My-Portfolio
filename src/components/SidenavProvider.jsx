@@ -1,5 +1,5 @@
-import { useState } from "react"
-import sideNav from "../context/sidenav"
+import { useState } from "react";
+import sideNav from "../context/sidenav";
 
 
 const SidenavProvider = ({ children }) => {
@@ -9,7 +9,7 @@ const SidenavProvider = ({ children }) => {
 
     const handleNav = () => {
         setNav(!nav);
-    }
+    };
 
 
 
@@ -20,6 +20,6 @@ const SidenavProvider = ({ children }) => {
   {children}
   </sideNav.Provider>
   )
-}
+};
 
 export default SidenavProvider;

@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import teraImg from '../assets/Images/teracotta.png'
+import teraImg from '../assets/Images/teracotta.png';
 
 const Projects = () => {
   return (
@@ -17,6 +17,6 @@ const Projects = () => {
   
     </div>
   )
-}
+};
 
 export default Projects;

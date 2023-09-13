@@ -16,6 +16,6 @@ const ProjectItem = ({img, title, code}) => {
       </div>
     </div>
   )
-}
+};
 
 export default ProjectItem;
