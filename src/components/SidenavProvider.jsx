@@ -9,7 +9,6 @@ const SidenavProvider = ({ children }) => {
 
     const handleNav = () => {
         setNav(!nav);
-        console.log("state change");
     }
 
 
