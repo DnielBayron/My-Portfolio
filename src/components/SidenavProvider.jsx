@@ -1,7 +1,7 @@
 import { useState } from "react"
 import sideNav from "../context/sidenav"
 
-// eslint-disable-next-line react/prop-types
+
 const SidenavProvider = ({ children }) => {
 
 
