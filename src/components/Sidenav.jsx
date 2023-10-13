@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject} from 'react-icons/ai';
 import {GrProjects} from 'react-icons/gr'
 import { BsPerson} from 'react-icons/bs';
-import sideNav from '../context/sidenav';
+import sideNav from '../context/sideNav';
 
 export const Sidenav = () => {
 
