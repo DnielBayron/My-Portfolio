@@ -1,5 +1,6 @@
 import {TypeAnimation} from 'react-type-animation';
-import {FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
+import {FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
+import ExamplePdf from '../assets/Deniel Philip Bayron_CV-1.pdf';
 
 export const Main = () => {
   return (
@@ -14,7 +15,7 @@ export const Main = () => {
       sequence={[
         'Web Developer',
         2000,
-        'Coder',
+        'Web Designer',
         2000,
         'Gamer',
         2000,
@@ -30,10 +31,20 @@ export const Main = () => {
             </h2>
 
             <div className=' flex justify-between pt-4 max-w-[200px] w-full '>
-               <a href="https://twitter.com/denbayron_"><FaTwitter className='cursor-pointer' size={20}/></a> 
-                <a href="https://www.facebook.com/deniel.zero"><FaFacebook className='cursor-pointer' size={20}/></a>
-                <a href="https://www.instagram.com/denbayron_/?hl=en"><FaInstagram className='cursor-pointer' size={20}/></a>
+                <a href="https://github.com/DnielBayron"><FaGithub className='cursor-pointer' size={20}/></a>
                 <a href="https://www.linkedin.com/in/deniel-bayron-70974418a/"><FaLinkedinIn className='cursor-pointer' size={20}/></a>
+                <a href="https://www.instagram.com/denbayron_/?hl=en"><FaInstagram className='cursor-pointer' size={20}/></a>
+                
+            </div>
+            <div className='pt-8'>
+            <a
+        href={ExamplePdf}
+        download="Deniel-Bayron_CV"
+        target="_blank"
+        rel="noreferrer"
+      >
+            <button className='p-2 text-sm rounded-lg bg-gray-950 text-white hover:bg-white hover:text-gray-950 duration-200 '>Download CV</button>
+        </a>
             </div>
         </div>
     </div>

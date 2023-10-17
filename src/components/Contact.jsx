@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-10 py-16'>
+    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-12'>
       <h1 className="py-4 font-bold text-4xl text-center text-[#001b5e]"> Contact </h1>
       <form action="https://getform.io/f/1a92f12a-3173-492f-99ee-d110d6f11e89" method="POST" encType="multipart/form-data">
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
         <div  className="flex flex-col py-2">
             <label className="uppercase text-sm py-2">Message</label>
-            <textarea className=" border-2 rounded-lg border-gray-300" rows='10' name="message" />
+            <textarea className=" border-2 rounded-lg border-gray-300" rows='6' name="message" />
         </div>
         <button className="bg-[#001b5e] w-full p-4 text-gray-100 mt-4 rounded-lg"> Send Message </button>
       </form>
