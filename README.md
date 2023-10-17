@@ -1,3 +1,6 @@
+CHECK THE LIVE SERVER HERE: 
+(https://teal-hummingbird-73f41a.netlify.app/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
