@@ -6,7 +6,7 @@ export const Main = () => {
   return (
     <div id="main">
     <img className="w-full h-screen object-cover object-left" src="https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80" alt="deniel-img" />
-    <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
+    <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
         <div  className=' pb-[100px] max-w-[1100px] w-full h-full flex flex-col m-auto justify-center xl:items-start items-center  '>
             <h1 className=' sm:text-5xl text-4xl font-bold text-gray-950'>I`m Deniel Bayron</h1>
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-950'>
@@ -30,13 +30,13 @@ export const Main = () => {
             
             </h2>
 
-            <div className=' flex justify-between pt-4 max-w-[200px] w-full '>
+            <div className=' flex gap-8 pl-10 xl:pl-0  pt-4 max-w-[200px] w-full '>
                 <a href="https://github.com/DnielBayron"><FaGithub className='cursor-pointer' size={20}/></a>
                 <a href="https://www.linkedin.com/in/deniel-bayron-70974418a/"><FaLinkedinIn className='cursor-pointer' size={20}/></a>
                 <a href="https://www.instagram.com/denbayron_/?hl=en"><FaInstagram className='cursor-pointer' size={20}/></a>
                 
             </div>
-            <div className='pt-8'>
+            <div className='pt-4 pl-2 xl:pl-0'>
             <a
         href={ExamplePdf}
         download="Deniel-Bayron_CV"

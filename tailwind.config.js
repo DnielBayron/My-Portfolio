@@ -10,6 +10,9 @@ export default {
         poppin : ['Poppins'],
         Poiret : ['Poiret One'],
         Nunito : ['Nunito Sans']
+      },
+      backgroundImage : {
+        origin : ['url("https://www.transparenttextures.com/patterns/little-pluses.png")']
       }
     },
   },

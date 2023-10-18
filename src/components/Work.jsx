@@ -11,7 +11,7 @@ const data = [
     {
         year: 2020,
         title: 'Onsemi',
-        duration: '2 Year',
+        duration: '2 Years',
         details: ' Troubleshooting unexpected issues in a production line, specifically related to CUH (Customer Unit Head) and loadboards, can be a complex task. Additionally, analyzing datalogs of failing parameters, such as DCT (Design Characteristic Test) and FCT (Functional Characteristic Test) failures, and Debugging, calibrating, and diagnosing electronic test equipment like the Advantest T2k and ASL1000, as well as interpreting electronic schematic diagrams for loadboards and test procedures that lead to failing parameters, requires a combination of technical knowledge and a systematic approach.'
     },
     {
@@ -25,7 +25,7 @@ const data = [
 
 export const Work = () => {
   return (
-    <div id='work' className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id='work' className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16">
         <h1 className="mb-5 text-4xl font-bold text-center text-[#001b5e]">Work</h1>
         {data.map((item, index) => (
             <WorkItem 

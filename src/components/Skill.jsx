@@ -10,12 +10,13 @@ import mongo from '../assets/mongo.png';
 import Cplus from '../assets/c_icon_132529.png';
 import mailchimp from '../assets/mailchimp_icon_130881.png';
 import sql from '../assets/mysql_original_wordmark_logo_icon_146417.png';
+import next from '../assets/nextjs_icon_212861.png';
 
 
 
 export const Skills = () => {
   return (
-    <div id='skill' className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id='skill' className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 mb-6">
    
       <h1 className="mb-5 text-4xl font-bold text-center text-[#001b5e]"> Skills </h1>
 
@@ -87,8 +88,8 @@ export const Skills = () => {
       </div>
 
       <div className='text-[#001b5e] font-Nunito'>
-          <img className='w-20 mx-auto' src={sql} alt="" />
-          <p className='my-4'>My SQL </p>
+          <img className='w-20 mx-auto' src={next} alt="" />
+          <p className='my-4'> Next JS </p>
     
       </div>
 
