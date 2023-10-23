@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-CHECK THE LIVE SERVER HERE: (https://teal-hummingbird-73f41a.netlify.app/)
-=======
+
 CHECK THE LIVE SERVER HERE: 
 (https://teal-hummingbird-73f41a.netlify.app/)
->>>>>>> a4d528a1b1680546f747d76c9243011f31837b13
+
 
 # React + Vite
 

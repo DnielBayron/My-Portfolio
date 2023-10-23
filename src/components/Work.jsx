@@ -25,7 +25,7 @@ const data = [
 
 export const Work = () => {
   return (
-    <div id='work' className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id='work' className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16 2xl:pt-28">
         <h1 className="mb-5 text-4xl font-bold text-center text-[#001b5e]">Work</h1>
         {data.map((item, index) => (
             <WorkItem 

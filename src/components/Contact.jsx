@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-12'>
+    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-12 2xl:pb-28 mt-24 2xl:mt-28'>
       <h1 className="py-4 font-bold text-4xl text-center text-[#001b5e]"> Contact </h1>
       <form action="https://getform.io/f/1a92f12a-3173-492f-99ee-d110d6f11e89" method="POST" encType="multipart/form-data">
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">

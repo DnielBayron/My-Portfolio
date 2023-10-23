@@ -8,8 +8,8 @@ import tera5Img from "../assets/b.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className='max-w-[1040px] m-auto md:pl-20 p-4 py-16]'>
-    <h1 className="text-4xl font-bold text-center py-8 text-[#001b5e]">Projects</h1>
+    <div id="projects" className='max-w-[1040px] m-auto md:pl-20 p-6]'>
+    <h1 className="text-4xl font-bold text-center py-12 text-[#001b5e]">Projects</h1>
     
     <div className="grid sm:grid-cols-2 gap-12 ">
         <ProjectItem img={teraImg} title='Tindog' code='HTML & CSS (BootStrap)' link='' />
