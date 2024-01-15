@@ -87,7 +87,7 @@ export const Skills = () => {
       </div>
 
       <div className='text-[#001b5e] font-Nunito'>
-          <img className='w-20 mx-auto' src={express} alt="" />
+          <img className='w-24 mt-2 mx-auto' src={express} alt="" />
           <p className='my-4'> Express JS </p>
     
       </div>
