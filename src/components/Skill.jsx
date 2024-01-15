@@ -9,7 +9,7 @@ import ts from '../assets/typescript_original_logo_icon_146317.png';
 import mongo from '../assets/mongo.png';
 import Cplus from '../assets/c_icon_132529.png';
 import mailchimp from '../assets/mailchimp_icon_130881.png';
-import next from '../assets/nextjs_icon_212861.png';
+import express from '../assets/expressjs_logo.png';
 
 
 
@@ -87,8 +87,8 @@ export const Skills = () => {
       </div>
 
       <div className='text-[#001b5e] font-Nunito'>
-          <img className='w-20 mx-auto' src={next} alt="" />
-          <p className='my-4'> Next JS </p>
+          <img className='w-20 mx-auto' src={express} alt="" />
+          <p className='my-4'> Express JS </p>
     
       </div>
 
