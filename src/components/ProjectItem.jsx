@@ -1,7 +1,9 @@
 import {FaGithub} from 'react-icons/fa';
+import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 
-const ProjectItem = ({img, title, code, link}) => {
+
+const ProjectItem = ({img, title, code, link1, link2}) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
@@ -11,8 +13,10 @@ const ProjectItem = ({img, title, code, link}) => {
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{code}</p>
         
-        <div className='flex items-center justify-center'>
-        <a  href={link}><FaGithub className='cursor-pointer' size={35}/></a>
+        <div className='flex items-center justify-center gap-5'>
+        <a href={link1}><BsArrowUpRightCircleFill size={30} /></a>
+        <a  href={link2}><FaGithub className='cursor-pointer' size={30}/></a>
+        
         </div>  
       </div>
     </div>
